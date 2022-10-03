@@ -1,0 +1,35 @@
+header .title {
+    height: 80px;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgb(245, 245, 245);
+    line-height: 80px;
+    font-weight: 400;
+}
+nav {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    border-top: 1px dotted gray;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px gray;
+}
+nav ul {
+    width: 100%;
+}
+nav ul:first-child {
+    margin-left: 60px;
+}
+nav ul li {
+    height: 48px;
+    margin: 0 100px;
+    text-align: center;
+    line-height: 50px;
+}
+nav ul li:hover {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+}
+nav ul li:hover a {
+    color: #9ebebe;
+}

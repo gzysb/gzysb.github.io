@@ -1,0 +1,52 @@
+.moudle {
+    margin: 80px 0 0 30px;
+}
+.moudle h4 {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+}
+.moudle p {
+    font-size: 18px;
+}
+.why h4:hover::after {
+    content: "(图片来源: https://www.thepaper.cn/newsDetail_forward_17310668)";
+}
+.why img {
+    display: inline-block;
+    width: 50%;
+    height: 800px;
+}
+.goods ul {
+    margin-top: 30px;
+}
+.goods ul li {
+    list-style-type: disc;
+    float: none;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.goods h4:hover::after {
+    content: "(观点来源: http://www.studyofnet.com/253546095.html)";
+}
+.says section {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.says section p {
+    margin-left: 800px;
+}
+.says h4:hover::after {
+    content: "(资料来源: http://www.waterconserving.cn/news/detail/3336)";
+}
+.links h4 {
+    margin-bottom: 30px;
+}
+.links ul li {
+    width: 33%;
+    margin: 20px 0;
+    text-align: center;
+}
+.links ul li:hover a {
+    color: aqua;
+}
